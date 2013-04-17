@@ -420,7 +420,7 @@ https://github.com/gpii/universal/LICENSE.txt
                 }],
                 "http://registry.gpii.org/applications/org.gnome.desktop.a11y.magnifier": [{
                     value: {
-                        "mag-factor": 2.0,
+                        "mag-factor": 1.0,
                         "screen-position": "full-screen",
                         "show-cross-hairs": false
                     }
