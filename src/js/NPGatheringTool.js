@@ -547,7 +547,7 @@ https://github.com/gpii/universal/LICENSE.txt
             notesLabel: {
                 messagekey: "notes"
             },
-            notes: "${prefs.notes}",
+            notes: "${prefs.http://registry\\.gpii\\.org/applications/net\\.gpii\\.pilot1\\.notes}",
             label: {
                 messagekey: "label"
             },
