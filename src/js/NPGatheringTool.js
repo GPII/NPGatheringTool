@@ -392,7 +392,7 @@ https://github.com/gpii/universal/LICENSE.txt
             cursorSizeNames: ["Small", "Normal", "Large", "Extra-Large"],
             cursorSizeList: [-1, 20, 29, 41],
             defaults: {
-                notes: "",
+                "http://registry.gpii.org/applications/net.gpii.pilot1.notes": [{ value: "" }],
                 // LINUX
                 "http://registry.gpii.org/applications/org.gnome.orca": [{
                     value: {
@@ -547,7 +547,7 @@ https://github.com/gpii/universal/LICENSE.txt
             notesLabel: {
                 messagekey: "notes"
             },
-            notes: "${prefs.http://registry\\.gpii\\.org/applications/net\\.gpii\\.pilot1\\.notes}",
+            notes: "${prefs.http://registry\\.gpii\\.org/applications/net\\.gpii\\.pilot1\\.notes.0.value}",
             label: {
                 messagekey: "label"
             },
