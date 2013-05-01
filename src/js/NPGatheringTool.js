@@ -47,10 +47,11 @@ https://github.com/gpii/universal/LICENSE.txt
             linuxGroupLabel: "Linux",
             windowsGroupLabel: "Windows",
             orcaGroupLabel: "Orca",
-            desktopGroupLabel: "Desktop",
-            a11yGroupLabel: "Accessibility",
+            gnomeGroupLabel: "Universal Access Settings",
+            easeOfAccessGroupLabel: "Ease of Access Center",
+            a11yGroupLabel: "GNOME Magnifier",
             nvdaGroupLabel: "NVDA",
-            magnifierGroupLabel: "Magnification",
+            magnifierGroupLabel: "Magnifier",
             "orca.voice.default.familyLabel": "Person (TTS language)",
             "orca.voice.default.rateLabel": "Voice Default Rate",
             "orca.enableTutorialMessagesLabel": "Enable Tutorial Messages",
@@ -100,7 +101,8 @@ https://github.com/gpii/universal/LICENSE.txt
             label: ".gpii-NPGatheringTool-label",
             linuxGroupLabel: ".gpii-NPGatheringTool-linuxGroupLabel",
             orcaGroupLabel: ".gpii-NPGatheringTool-orcaGroupLabel",
-            desktopGroupLabel: ".gpii-NPGatheringTool-desktopGroupLabel",
+            gnomeGroupLabel: ".gpii-NPGatheringTool-gnomeGroupLabel",
+            easeOfAccessGroupLabel: ".gpii-NPGatheringTool-easeOfAccessGroupLabel",
             a11yGroupLabel: ".gpii-NPGatheringTool-a11yGroupLabel",
             windowsGroupLabel: ".gpii-NPGatheringTool-windowsGroupLabel",
             nvdaGroupLabel: ".gpii-NPGatheringTool-nvdaGroupLabel",
@@ -560,8 +562,11 @@ https://github.com/gpii/universal/LICENSE.txt
             orcaGroupLabel: {
                 messagekey: "orcaGroupLabel"
             },
-            desktopGroupLabel: {
-                messagekey: "desktopGroupLabel"
+            gnomeGroupLabel: {
+                messagekey: "gnomeGroupLabel"
+            },
+            easeOfAccessGroupLabel: {
+                messagekey: "easeOfAccessGroupLabel"
             },
             a11yGroupLabel: {
                 messagekey: "a11yGroupLabel"
