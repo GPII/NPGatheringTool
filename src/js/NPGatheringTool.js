@@ -84,11 +84,11 @@ https://github.com/gpii/universal/LICENSE.txt
             "nvda.speech.outputDeviceLabel": "Output Device",
             "desktop.highContrastOnLabel": "High Contrast",
             "desktop.cursorsLabel": "Cursor",
-            "magnifier.MagnificationLabel": "Magnification",
-            "magnifier.FollowFocusLabel": "Follow Focus",
-            "magnifier.FollowCaretLabel": "Follow Caret",
-            "magnifier.FollowMouseLabel": "Follow Mouse",
-            "magnifier.MagnificationModeLabel": "Magnification Mode"
+            "magnifier.MagnificationLabel": "Zoom level",
+            "magnifier.FollowFocusLabel": "Follow the keyboard focus",
+            "magnifier.FollowCaretLabel": "Follow the text insertion point",
+            "magnifier.FollowMouseLabel": "Follow the mouser pointer",
+            "magnifier.MagnificationModeLabel": "Magnifier Mode"
         },
         selectors: {
             save: ".gpii-NPGatheringTool-save",
