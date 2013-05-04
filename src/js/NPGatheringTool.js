@@ -657,7 +657,7 @@ https://github.com/gpii/universal/LICENSE.txt
                             max: 3
                         },
                         sliderOptions: {
-                            step: 0.5
+                            step: 0.1
                         }
                     }
                 }
