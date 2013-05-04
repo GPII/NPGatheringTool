@@ -785,7 +785,10 @@ https://github.com/gpii/universal/LICENSE.txt
                         elPath: "prefs.http://registry\\.gpii\\.org/applications/com\\.microsoft\\.windows\\.magnifier.0.value.Magnification.value",
                         model: {
                             min: 100,
-                            max: 400
+                            max: 1600
+                        },
+                        sliderOptions: {
+                            step: 25
                         }
                     }
                 }
