@@ -87,7 +87,7 @@ https://github.com/gpii/universal/LICENSE.txt
             "magnifier.MagnificationLabel": "Zoom level",
             "magnifier.FollowFocusLabel": "Follow the keyboard focus",
             "magnifier.FollowCaretLabel": "Follow the text insertion point",
-            "magnifier.FollowMouseLabel": "Follow the mouser pointer",
+            "magnifier.FollowMouseLabel": "Follow the mouse pointer",
             "magnifier.MagnificationModeLabel": "Magnifier Mode"
         },
         selectors: {
