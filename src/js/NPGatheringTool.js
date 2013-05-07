@@ -391,7 +391,7 @@ https://github.com/gpii/universal/LICENSE.txt
             verbalizePunctuationStyleNames: ["All", "Most", "Some", "None"],
             sayAllStyleNames: ["Line", "Sentence"],
             sayAllStyleList: [0, 1],
-            cursorSizeNames: ["Small", "Normal", "Large", "Extra-Large"],
+            cursorSizeNames: ["Small (less than 0)", "Normal (0-28)", "Large (29-40)", "Extra-Large (41 and higher)"],
             cursorSizeList: [-1, 20, 29, 41],
             defaults: {
                 "http://registry.gpii.org/applications/net.gpii.pilot1.notes": [{ value: "" }],
