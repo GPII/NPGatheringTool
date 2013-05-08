@@ -79,7 +79,7 @@ https://github.com/gpii/universal/LICENSE.txt
             "nvda.keyboard.speakTypedWordsLabel": "Speak Typed Words",
             "nvda.speech.espeak.sayCapForCapitalsLabel": "Say 'Cap' For Capitals",
             "nvda.speech.symbolLevelLabel": "Punctuation/symbol level",
-            "nvda.virtualBuffers.autoSayAllOnPageLoadLabel": "Say All On Page Load",
+            "nvda.virtualBuffers.autoSayAllOnPageLoadLabel": "Automatic Say All on page load",
             "nvda.speech.synthLabel": "Speech Synth",
             "nvda.speech.outputDeviceLabel": "Output Device",
             "desktop.highContrastOnLabel": "High Contrast",
