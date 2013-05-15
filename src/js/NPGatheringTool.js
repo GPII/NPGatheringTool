@@ -47,6 +47,10 @@ https://github.com/gpii/universal/LICENSE.txt
             linuxGroupLabel: "Linux",
             windowsGroupLabel: "Windows",
             orcaGroupLabel: "Orca",
+            orcaVoiceGroupLabel: "Orca Voice Settings",
+            orcaSpeechGroupLabel: "Orca Speech Settings",
+            orcaBrailleGroupLabel: "Orca Braille Settings",
+            orcaKeyEchoGroupLabel: "Orca Key Echo Settings",
             gnomeGroupLabel: "Universal Access Settings",
             easeOfAccessGroupLabel: "Windows Ease of Access Center",
             a11yGroupLabel: "GNOME Magnifier",
@@ -107,6 +111,10 @@ https://github.com/gpii/universal/LICENSE.txt
             label: ".gpii-NPGatheringTool-label",
             linuxGroupLabel: ".gpii-NPGatheringTool-linuxGroupLabel",
             orcaGroupLabel: ".gpii-NPGatheringTool-orcaGroupLabel",
+            orcaVoiceGroupLabel: ".gpii-NPGatheringTool-orcaVoiceGroupLabel",
+            orcaSpeechGroupLabel: ".gpii-NPGatheringTool-orcaSpeechGroupLabel",
+            orcaBrailleGroupLabel: ".gpii-NPGatheringTool-orcaBrailleGroupLabel",
+            orcaKeyEchoGroupLabel: ".gpii-NPGatheringTool-orcaKeyEchoGroupLabel",
             gnomeGroupLabel: ".gpii-NPGatheringTool-gnomeGroupLabel",
             easeOfAccessGroupLabel: ".gpii-NPGatheringTool-easeOfAccessGroupLabel",
             a11yGroupLabel: ".gpii-NPGatheringTool-a11yGroupLabel",
@@ -573,6 +581,18 @@ https://github.com/gpii/universal/LICENSE.txt
             },
             orcaGroupLabel: {
                 messagekey: "orcaGroupLabel"
+            },
+            orcaVoiceGroupLabel: {
+                messagekey: "orcaVoiceGroupLabel"
+            },
+            orcaSpeechGroupLabel: {
+                messagekey: "orcaSpeechGroupLabel"
+            },
+            orcaBrailleGroupLabel: {
+                messagekey: "orcaBrailleGroupLabel"
+            },
+            orcaKeyEchoGroupLabel: {
+                messagekey: "orcaKeyEchoGroupLabel"
             },
             gnomeGroupLabel: {
                 messagekey: "gnomeGroupLabel"
