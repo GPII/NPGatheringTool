@@ -682,7 +682,7 @@ https://github.com/gpii/universal/LICENSE.txt
                     options: {
                         elPath: "prefs.http://registry\\.gpii\\.org/applications/org\\.gnome\\.desktop\\.a11y\\.magnifier.0.value.mag-factor",
                         model: {
-                            min: 0.1,
+                            min: 1.0,
                             max: 32.0
                         },
                         sliderOptions: {
