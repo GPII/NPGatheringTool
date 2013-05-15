@@ -391,6 +391,8 @@ https://github.com/gpii/universal/LICENSE.txt
             verbalizePunctuationStyleNames: ["All", "Most", "Some", "None"],
             sayAllStyleNames: ["Line", "Sentence"],
             sayAllStyleList: [0, 1],
+            nvdaSymbolLevelList: [0, 100, 200, 300],
+            nvdaSymbolLevelNames: ["None", "Some", "Most", "All"],
             cursorSizeNames: ["Small (less than 0)", "Normal (0-28)", "Large (29-40)", "Extra-Large (41 and higher)"],
             cursorSizeList: [-1, 20, 29, 41],
             defaults: {
@@ -741,16 +743,11 @@ https://github.com/gpii/universal/LICENSE.txt
             "nvda.speech.symbolLevel": {
                 decorators: {
                     type: "fluid",
-                    func: "gpii.textfieldSlider",
+                    func: "gpii.numericDropDown",
                     options: {
-                        elPath: "prefs.http://registry\\.gpii\\.org/applications/org\\.nvda-project.0.value.speech\\.symbolLevel",
-                        model: {
-                            min: 0,
-                            max: 300
-                        },
-                        sliderOptions: {
-                            step: 100
-                        }
+                        optionnames: "${nvdaSymbolLevelNames}",
+                        optionlist: "${nvdaSymbolLevelList}",
+                        selection: "prefs.http://registry\\.gpii\\.org/applications/org\\.nvda-project.0.value.speech\\.symbolLevel"
                     }
                 }
             },
