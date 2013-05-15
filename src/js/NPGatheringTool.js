@@ -48,10 +48,16 @@ https://github.com/gpii/universal/LICENSE.txt
             windowsGroupLabel: "Windows",
             orcaGroupLabel: "Orca",
             gnomeGroupLabel: "Universal Access Settings",
-            easeOfAccessGroupLabel: "Ease of Access Center",
+            easeOfAccessGroupLabel: "Windows Ease of Access Center",
             a11yGroupLabel: "GNOME Magnifier",
             nvdaGroupLabel: "NVDA",
-            magnifierGroupLabel: "Magnifier",
+            nvdaVoiceGroupLabel: "NVDA Voice Settings",
+            nvdaKeyboardGroupLabel: "NVDA Keyboard Settings",
+            nvdaReviewCursorGroupLabel: "NVDA Review Cursor",
+            nvdaObjectPresentationGroupLabel: "NVDA Object Presentation",
+            nvdaBrowseModeGroupLabel: "NVDA Browse Mode",
+            nvdaSynthGroupLabel: "NVDA Synthesizer",
+            magnifierGroupLabel: "Windows Magnifier",
             "orca.voice.default.familyLabel": "Person (TTS language)",
             "orca.voice.default.rateLabel": "Voice Default Rate",
             "orca.enableTutorialMessagesLabel": "Enable Tutorial Messages",
@@ -106,6 +112,12 @@ https://github.com/gpii/universal/LICENSE.txt
             a11yGroupLabel: ".gpii-NPGatheringTool-a11yGroupLabel",
             windowsGroupLabel: ".gpii-NPGatheringTool-windowsGroupLabel",
             nvdaGroupLabel: ".gpii-NPGatheringTool-nvdaGroupLabel",
+            nvdaVoiceGroupLabel: ".gpii-NPGatheringTool-nvdaVoiceGroupLabel",
+            nvdaKeyboardGroupLabel: ".gpii-NPGatheringTool-nvdaKeyboardGroupLabel",
+            nvdaReviewCursorGroupLabel: ".gpii-NPGatheringTool-nvdaReviewCursorGroupLabel",
+            nvdaObjectPresentationGroupLabel: ".gpii-NPGatheringTool-nvdaObjectPresentationGroupLabel",
+            nvdaBrowseModeGroupLabel: ".gpii-NPGatheringTool-nvdaBrowseModeGroupLabel",
+            nvdaSynthGroupLabel: ".gpii-NPGatheringTool-nvdaSynthGroupLabel",
             magnifierGroupLabel: ".gpii-NPGatheringTool-magnifierGroupLabel",
 
             "orca.voice.default.family": ".gpii-NPGatheringTool-orca-voice-default-family",
@@ -573,6 +585,24 @@ https://github.com/gpii/universal/LICENSE.txt
             },
             nvdaGroupLabel: {
                 messagekey: "nvdaGroupLabel"
+            },
+            nvdaVoiceGroupLabel: {
+                messagekey: "nvdaVoiceGroupLabel"
+            },
+            nvdaKeyboardGroupLabel: {
+                messagekey: "nvdaKeyboardGroupLabel"
+            },
+            nvdaReviewCursorGroupLabel: {
+                messagekey: "nvdaReviewCursorGroupLabel"
+            },
+            nvdaObjectPresentationGroupLabel: {
+                messagekey: "nvdaObjectPresentationGroupLabel"
+            },
+            nvdaBrowseModeGroupLabel: {
+                messagekey: "nvdaBrowseModeGroupLabel"
+            },
+            nvdaSynthGroupLabel: {
+                messagekey: "nvdaSynthGroupLabel"
             },
             magnifierGroupLabel: {
                 messagekey: "magnifierGroupLabel"
