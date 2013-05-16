@@ -47,11 +47,21 @@ https://github.com/gpii/universal/LICENSE.txt
             linuxGroupLabel: "Linux",
             windowsGroupLabel: "Windows",
             orcaGroupLabel: "Orca",
+            orcaVoiceGroupLabel: "Orca Voice Settings",
+            orcaSpeechGroupLabel: "Orca Speech Settings",
+            orcaBrailleGroupLabel: "Orca Braille Settings",
+            orcaKeyEchoGroupLabel: "Orca Key Echo Settings",
             gnomeGroupLabel: "Universal Access Settings",
-            easeOfAccessGroupLabel: "Ease of Access Center",
+            easeOfAccessGroupLabel: "Windows Ease of Access Center",
             a11yGroupLabel: "GNOME Magnifier",
             nvdaGroupLabel: "NVDA",
-            magnifierGroupLabel: "Magnifier",
+            nvdaVoiceGroupLabel: "NVDA Voice Settings",
+            nvdaKeyboardGroupLabel: "NVDA Keyboard Settings",
+            nvdaReviewCursorGroupLabel: "NVDA Review Cursor",
+            nvdaObjectPresentationGroupLabel: "NVDA Object Presentation",
+            nvdaBrowseModeGroupLabel: "NVDA Browse Mode",
+            nvdaSynthGroupLabel: "NVDA Synthesizer",
+            magnifierGroupLabel: "Windows Magnifier",
             "orca.voice.default.familyLabel": "Person (TTS language)",
             "orca.voice.default.rateLabel": "Voice Default Rate",
             "orca.enableTutorialMessagesLabel": "Enable Tutorial Messages",
@@ -101,11 +111,21 @@ https://github.com/gpii/universal/LICENSE.txt
             label: ".gpii-NPGatheringTool-label",
             linuxGroupLabel: ".gpii-NPGatheringTool-linuxGroupLabel",
             orcaGroupLabel: ".gpii-NPGatheringTool-orcaGroupLabel",
+            orcaVoiceGroupLabel: ".gpii-NPGatheringTool-orcaVoiceGroupLabel",
+            orcaSpeechGroupLabel: ".gpii-NPGatheringTool-orcaSpeechGroupLabel",
+            orcaBrailleGroupLabel: ".gpii-NPGatheringTool-orcaBrailleGroupLabel",
+            orcaKeyEchoGroupLabel: ".gpii-NPGatheringTool-orcaKeyEchoGroupLabel",
             gnomeGroupLabel: ".gpii-NPGatheringTool-gnomeGroupLabel",
             easeOfAccessGroupLabel: ".gpii-NPGatheringTool-easeOfAccessGroupLabel",
             a11yGroupLabel: ".gpii-NPGatheringTool-a11yGroupLabel",
             windowsGroupLabel: ".gpii-NPGatheringTool-windowsGroupLabel",
             nvdaGroupLabel: ".gpii-NPGatheringTool-nvdaGroupLabel",
+            nvdaVoiceGroupLabel: ".gpii-NPGatheringTool-nvdaVoiceGroupLabel",
+            nvdaKeyboardGroupLabel: ".gpii-NPGatheringTool-nvdaKeyboardGroupLabel",
+            nvdaReviewCursorGroupLabel: ".gpii-NPGatheringTool-nvdaReviewCursorGroupLabel",
+            nvdaObjectPresentationGroupLabel: ".gpii-NPGatheringTool-nvdaObjectPresentationGroupLabel",
+            nvdaBrowseModeGroupLabel: ".gpii-NPGatheringTool-nvdaBrowseModeGroupLabel",
+            nvdaSynthGroupLabel: ".gpii-NPGatheringTool-nvdaSynthGroupLabel",
             magnifierGroupLabel: ".gpii-NPGatheringTool-magnifierGroupLabel",
 
             "orca.voice.default.family": ".gpii-NPGatheringTool-orca-voice-default-family",
@@ -562,6 +582,18 @@ https://github.com/gpii/universal/LICENSE.txt
             orcaGroupLabel: {
                 messagekey: "orcaGroupLabel"
             },
+            orcaVoiceGroupLabel: {
+                messagekey: "orcaVoiceGroupLabel"
+            },
+            orcaSpeechGroupLabel: {
+                messagekey: "orcaSpeechGroupLabel"
+            },
+            orcaBrailleGroupLabel: {
+                messagekey: "orcaBrailleGroupLabel"
+            },
+            orcaKeyEchoGroupLabel: {
+                messagekey: "orcaKeyEchoGroupLabel"
+            },
             gnomeGroupLabel: {
                 messagekey: "gnomeGroupLabel"
             },
@@ -573,6 +605,24 @@ https://github.com/gpii/universal/LICENSE.txt
             },
             nvdaGroupLabel: {
                 messagekey: "nvdaGroupLabel"
+            },
+            nvdaVoiceGroupLabel: {
+                messagekey: "nvdaVoiceGroupLabel"
+            },
+            nvdaKeyboardGroupLabel: {
+                messagekey: "nvdaKeyboardGroupLabel"
+            },
+            nvdaReviewCursorGroupLabel: {
+                messagekey: "nvdaReviewCursorGroupLabel"
+            },
+            nvdaObjectPresentationGroupLabel: {
+                messagekey: "nvdaObjectPresentationGroupLabel"
+            },
+            nvdaBrowseModeGroupLabel: {
+                messagekey: "nvdaBrowseModeGroupLabel"
+            },
+            nvdaSynthGroupLabel: {
+                messagekey: "nvdaSynthGroupLabel"
             },
             magnifierGroupLabel: {
                 messagekey: "magnifierGroupLabel"
@@ -682,7 +732,7 @@ https://github.com/gpii/universal/LICENSE.txt
                     options: {
                         elPath: "prefs.http://registry\\.gpii\\.org/applications/org\\.gnome\\.desktop\\.a11y\\.magnifier.0.value.mag-factor",
                         model: {
-                            min: 0.1,
+                            min: 1.0,
                             max: 32.0
                         },
                         sliderOptions: {
