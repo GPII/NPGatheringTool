@@ -92,7 +92,7 @@ https://github.com/gpii/universal/LICENSE.txt
             "nvda.virtualBuffers.autoSayAllOnPageLoadLabel": "Automatic Say All on page load",
             "nvda.speech.synthLabel": "Speech Synth",
             "nvda.speech.outputDeviceLabel": "Output Device",
-            "desktop.highContrastOnLabel": "High Contrast",
+            "desktop.HighContrastOnLabel": "High Contrast",
             "desktop.cursorsLabel": "Cursor",
             "magnifier.MagnificationLabel": "Zoom level",
             "magnifier.FollowFocusLabel": "Follow the keyboard focus",
@@ -189,8 +189,8 @@ https://github.com/gpii/universal/LICENSE.txt
             "nvda.speech.synthLabel": ".gpii-NPGatheringTool-nvda-speech-synthLabel",
             "nvda.speech.outputDevice": ".gpii-NPGatheringTool-nvda-speech-outputDevice",
             "nvda.speech.outputDeviceLabel": ".gpii-NPGatheringTool-nvda-speech-outputDeviceLabel",
-            "desktop.highContrastOn": ".gpii-NPGatheringTool-desktop-highContrastOn",
-            "desktop.highContrastOnLabel": ".gpii-NPGatheringTool-desktop-highContrastOnLabel",
+            "desktop.HighContrastOn": ".gpii-NPGatheringTool-desktop-HighContrastOn",
+            "desktop.HighContrastOnLabel": ".gpii-NPGatheringTool-desktop-HighContrastOnLabel",
             "desktop.cursors": ".gpii-NPGatheringTool-desktop-cursors",
             "desktop.cursorsLabel": ".gpii-NPGatheringTool-desktop-cursorsLabel",
             "magnifier.Magnification": ".gpii-NPGatheringTool-magnifier-Magnification",
@@ -470,7 +470,7 @@ https://github.com/gpii/universal/LICENSE.txt
                 }],
                 "http://registry.gpii.org/applications/com.microsoft.windows.highContrast": [{
                     value: {
-                        highContrastOn: {
+                        HighContrastOn: {
                             path: "pvParam.dwFlags.HCF_HIGHCONTRASTON",
                             value: false
                         }
@@ -816,8 +816,8 @@ https://github.com/gpii/universal/LICENSE.txt
                 selection: "${prefs.http://registry\\.gpii\\.org/applications/org\\.nvda-project.0.value.speech\\.outputDevice}"
             },
             "nvda.speech.outputDeviceLabel": {messagekey: "nvda.speech.outputDeviceLabel"},
-            "desktop.highContrastOn": "${prefs.http://registry\\.gpii\\.org/applications/com\\.microsoft\\.windows\\.highContrast.0.value.highContrastOn.value}",
-            "desktop.highContrastOnLabel": {messagekey: "desktop.highContrastOnLabel"},
+            "desktop.HighContrastOn": "${prefs.http://registry\\.gpii\\.org/applications/com\\.microsoft\\.windows\\.highContrast.0.value.HighContrastOn.value}",
+            "desktop.HighContrastOnLabel": {messagekey: "desktop.HighContrastOnLabel"},
             "desktop.cursors": {
                 optionnames: "${cursors.valuelist}",
                 optionlist: "${cursors.valuelist}",
